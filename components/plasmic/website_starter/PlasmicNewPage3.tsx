@@ -173,10 +173,70 @@ function PlasmicNewPage3__RenderFunc(props: {
             data-plasmic-override={overrides.freeBox}
             className={classNames(projectcss.all, sty.freeBox)}
           >
-            <Button className={classNames("__wab_instance", sty.button__xQo3W)}>
+            <Button
+              className={classNames("__wab_instance", sty.button__xQo3W)}
+              onClick={async event => {
+                const $steps = {};
+
+                $steps["goToNewPage2"] = true
+                  ? (() => {
+                      const actionArgs = { destination: `/` };
+                      return (({ destination }) => {
+                        if (
+                          typeof destination === "string" &&
+                          destination.startsWith("#")
+                        ) {
+                          document
+                            .getElementById(destination.substr(1))
+                            .scrollIntoView({ behavior: "smooth" });
+                        } else {
+                          __nextRouter?.push(destination);
+                        }
+                      })?.apply(null, [actionArgs]);
+                    })()
+                  : undefined;
+                if (
+                  $steps["goToNewPage2"] != null &&
+                  typeof $steps["goToNewPage2"] === "object" &&
+                  typeof $steps["goToNewPage2"].then === "function"
+                ) {
+                  $steps["goToNewPage2"] = await $steps["goToNewPage2"];
+                }
+              }}
+            >
               {"English"}
             </Button>
-            <Button className={classNames("__wab_instance", sty.button__e6Q8K)}>
+            <Button
+              className={classNames("__wab_instance", sty.button__e6Q8K)}
+              onClick={async event => {
+                const $steps = {};
+
+                $steps["goToNewPage3"] = true
+                  ? (() => {
+                      const actionArgs = { destination: `/${"ru"}` };
+                      return (({ destination }) => {
+                        if (
+                          typeof destination === "string" &&
+                          destination.startsWith("#")
+                        ) {
+                          document
+                            .getElementById(destination.substr(1))
+                            .scrollIntoView({ behavior: "smooth" });
+                        } else {
+                          __nextRouter?.push(destination);
+                        }
+                      })?.apply(null, [actionArgs]);
+                    })()
+                  : undefined;
+                if (
+                  $steps["goToNewPage3"] != null &&
+                  typeof $steps["goToNewPage3"] === "object" &&
+                  typeof $steps["goToNewPage3"].then === "function"
+                ) {
+                  $steps["goToNewPage3"] = await $steps["goToNewPage3"];
+                }
+              }}
+            >
               {"Russian"}
             </Button>
           </div>
