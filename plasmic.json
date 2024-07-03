@@ -85,20 +85,6 @@
           "plumeType": "triggered-overlay"
         },
         {
-          "id": "2ImRlUMWqyu0",
-          "name": "NewPage",
-          "type": "managed",
-          "projectId": "oag8TsAwAR9aYX3dH7PUrQ",
-          "renderModuleFilePath": "plasmic/website_starter/PlasmicNewPage.tsx",
-          "importSpec": {
-            "modulePath": "../pages/[lang].tsx"
-          },
-          "cssFilePath": "plasmic/website_starter/PlasmicNewPage.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/[lang]"
-        },
-        {
           "id": "MyjivRijFoCy",
           "name": "NewPage2",
           "type": "managed",
@@ -567,7 +553,8 @@
           "componentImportPath": "@plasmicpkgs/antd5/skinny/registerBreadcrumb"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     }
   ],
   "globalVariants": {

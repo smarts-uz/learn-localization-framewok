@@ -155,7 +155,7 @@ function PlasmicNewPage2__RenderFunc(props: {
               sty.h1
             )}
           >
-            {"You won't believe what happens next."}
+            {"title"}
           </h1>
           <div
             data-plasmic-name={"text"}
@@ -166,9 +166,7 @@ function PlasmicNewPage2__RenderFunc(props: {
               sty.text
             )}
           >
-            {
-              "This book is a comprehensive introduction to text forming resources in English, along with practical procedures for analysing English texts and relating them to their contexts of use. It has been designed to complement functional grammars of English, building on the generation of discourse analysis inspired by Halliday and Hasan's Cohesion in English. The analyses presented were developed within three main theoretical and applied contexts: (i) educational linguistics (especially genre-based literacy programmes) (ii) critical linguistics (as manifested in the development of social semiotics) and (iii) computational linguistics (in dialogue with the various text generation projects based on systemic approaches to grammar and discourse). English Text's major contribution is to outline one way in which a rich semantically oriented functional grammar can be systematically related to a theory of discourse semantics, including deconstruction of contextual issues (i.e. register, genre and ideology). The chapters have been organized with the needs of undergraduate students in theoretical linguistics and postgraduate students in applied linguistics in mind."
-            }
+            {"text"}
           </div>
           <div
             data-plasmic-name={"freeBox"}
