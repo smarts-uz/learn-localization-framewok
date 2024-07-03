@@ -111,6 +111,20 @@
           "scheme": "blackbox",
           "componentType": "component",
           "plumeType": "button"
+        },
+        {
+          "id": "Kj8bNhZfVFIj",
+          "name": "NewPage3",
+          "type": "managed",
+          "projectId": "oag8TsAwAR9aYX3dH7PUrQ",
+          "renderModuleFilePath": "plasmic/website_starter/PlasmicNewPage3.tsx",
+          "importSpec": {
+            "modulePath": "../pages/[lang].tsx"
+          },
+          "cssFilePath": "plasmic/website_starter/PlasmicNewPage3.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/[lang]"
         }
       ],
       "icons": [
