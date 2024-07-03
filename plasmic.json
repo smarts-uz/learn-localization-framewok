@@ -29,20 +29,6 @@
       "cssFilePath": "plasmic/website_starter/plasmic.module.css",
       "components": [
         {
-          "id": "7h7Qjbih0oCJ",
-          "name": "Homepage",
-          "type": "managed",
-          "projectId": "oag8TsAwAR9aYX3dH7PUrQ",
-          "renderModuleFilePath": "plasmic/website_starter/PlasmicHomepage.tsx",
-          "importSpec": {
-            "modulePath": "../pages/index.tsx"
-          },
-          "cssFilePath": "plasmic/website_starter/PlasmicHomepage.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/"
-        },
-        {
           "id": "jdwti-cgKfbu",
           "name": "Select",
           "type": "managed",
@@ -97,6 +83,20 @@
           "scheme": "blackbox",
           "componentType": "component",
           "plumeType": "triggered-overlay"
+        },
+        {
+          "id": "2ImRlUMWqyu0",
+          "name": "NewPage",
+          "type": "managed",
+          "projectId": "oag8TsAwAR9aYX3dH7PUrQ",
+          "renderModuleFilePath": "plasmic/website_starter/PlasmicNewPage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/[lang].tsx"
+          },
+          "cssFilePath": "plasmic/website_starter/PlasmicNewPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/[lang]"
         }
       ],
       "icons": [
