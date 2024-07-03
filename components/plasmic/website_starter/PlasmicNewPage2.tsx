@@ -59,10 +59,16 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
+import Button from "../../Button"; // plasmic-import: siuDsNYtBgLJ/component
+
 import "@plasmicapp/react-web/lib/plasmic.css";
 
+import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
 import projectcss from "./plasmic.module.css"; // plasmic-import: oag8TsAwAR9aYX3dH7PUrQ/projectcss
 import sty from "./PlasmicNewPage2.module.css"; // plasmic-import: MyjivRijFoCy/css
+
+import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: AJygcP7dEmci/icon
+import IconIcon from "./icons/PlasmicIcon__Icon"; // plasmic-import: 3Z5UbcRMe0zP/icon
 
 createPlasmicElementProxy;
 
@@ -79,6 +85,7 @@ export type PlasmicNewPage2__OverridesType = {
   root?: Flex__<"div">;
   h1?: Flex__<"h1">;
   text?: Flex__<"div">;
+  freeBox?: Flex__<"div">;
 };
 
 export interface DefaultNewPage2Props {}
@@ -134,6 +141,7 @@ function PlasmicNewPage2__RenderFunc(props: {
             projectcss.plasmic_default_styles,
             projectcss.plasmic_mixins,
             projectcss.plasmic_tokens,
+            plasmic_antd_5_hostless_css.plasmic_tokens,
             sty.root
           )}
         >
@@ -162,6 +170,18 @@ function PlasmicNewPage2__RenderFunc(props: {
               "This book is a comprehensive introduction to text forming resources in English, along with practical procedures for analysing English texts and relating them to their contexts of use. It has been designed to complement functional grammars of English, building on the generation of discourse analysis inspired by Halliday and Hasan's Cohesion in English. The analyses presented were developed within three main theoretical and applied contexts: (i) educational linguistics (especially genre-based literacy programmes) (ii) critical linguistics (as manifested in the development of social semiotics) and (iii) computational linguistics (in dialogue with the various text generation projects based on systemic approaches to grammar and discourse). English Text's major contribution is to outline one way in which a rich semantically oriented functional grammar can be systematically related to a theory of discourse semantics, including deconstruction of contextual issues (i.e. register, genre and ideology). The chapters have been organized with the needs of undergraduate students in theoretical linguistics and postgraduate students in applied linguistics in mind."
             }
           </div>
+          <div
+            data-plasmic-name={"freeBox"}
+            data-plasmic-override={overrides.freeBox}
+            className={classNames(projectcss.all, sty.freeBox)}
+          >
+            <Button className={classNames("__wab_instance", sty.button__mVpge)}>
+              {"English"}
+            </Button>
+            <Button className={classNames("__wab_instance", sty.button__eEs06)}>
+              {"Russian"}
+            </Button>
+          </div>
         </div>
       </div>
     </React.Fragment>
@@ -169,9 +189,10 @@ function PlasmicNewPage2__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "h1", "text"],
+  root: ["root", "h1", "text", "freeBox"],
   h1: ["h1"],
-  text: ["text"]
+  text: ["text"],
+  freeBox: ["freeBox"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -180,6 +201,7 @@ type NodeDefaultElementType = {
   root: "div";
   h1: "h1";
   text: "div";
+  freeBox: "div";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -244,6 +266,7 @@ export const PlasmicNewPage2 = Object.assign(
     // Helper components rendering sub-elements
     h1: makeNodeComponent("h1"),
     text: makeNodeComponent("text"),
+    freeBox: makeNodeComponent("freeBox"),
 
     // Metadata about props expected for PlasmicNewPage2
     internalVariantProps: PlasmicNewPage2__VariantProps,
