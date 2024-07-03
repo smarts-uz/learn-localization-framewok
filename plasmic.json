@@ -97,6 +97,20 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/[lang]"
+        },
+        {
+          "id": "MyjivRijFoCy",
+          "name": "NewPage2",
+          "type": "managed",
+          "projectId": "oag8TsAwAR9aYX3dH7PUrQ",
+          "renderModuleFilePath": "plasmic/website_starter/PlasmicNewPage2.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/website_starter/PlasmicNewPage2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
         }
       ],
       "icons": [
