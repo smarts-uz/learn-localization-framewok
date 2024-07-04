@@ -134,6 +134,72 @@
         }
       ],
       "codegenVersion": "0.0.1"
+    },
+    {
+      "projectId": "pzYSxfi2fsWmvqyno52Yt4",
+      "version": "latest",
+      "dependencies": {
+        "ohDidvG9XsCeFumugENU3J": "6.24.0"
+      },
+      "lang": "ts",
+      "fileLocks": [
+        {
+          "type": "globalVariant",
+          "assetId": "5x3EUp4dzrsJ",
+          "checksum": "68302bd21b03a43707d36bc0f86d66e4"
+        },
+        {
+          "assetId": "pzYSxfi2fsWmvqyno52Yt4",
+          "type": "projectCss",
+          "checksum": "d496d28e40719d036b509747ba4369fb"
+        },
+        {
+          "assetId": "pzYSxfi2fsWmvqyno52Yt4",
+          "checksum": "a70ecc9400f271ccf50b0455e13b5265",
+          "type": "globalContexts"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "0WmWfTz3WOQj",
+          "checksum": "6f87299f6e3074fd8d16e5937b6ea7fd"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "0WmWfTz3WOQj",
+          "checksum": "6f87299f6e3074fd8d16e5937b6ea7fd"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "z0gqIERMy3Gs",
+          "checksum": "03c2dba5542847e4a000e90f31588a57"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "z0gqIERMy3Gs",
+          "checksum": "03c2dba5542847e4a000e90f31588a57"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "-pSLt69pXfLm",
+          "checksum": "935c2eaa0ba90ffb89fbdff38e067589"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "-pSLt69pXfLm",
+          "checksum": "935c2eaa0ba90ffb89fbdff38e067589"
+        },
+        {
+          "type": "icon",
+          "assetId": "n2hlaRuYyv_j",
+          "checksum": "15b8a88684a89c4a4eda4b8e2e1ddb71"
+        },
+        {
+          "type": "icon",
+          "assetId": "QV8cJOoLUqAh",
+          "checksum": "70185fc039950f99c0b86f30e4766b75"
+        }
+      ],
+      "codegenVersion": "0.0.1"
     }
   ],
   "cliVersion": "0.1.330"

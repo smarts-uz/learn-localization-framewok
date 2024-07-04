@@ -96,10 +96,10 @@
 .rootshowStartIcon_shape_rounded {
   padding-left: 16px;
 }
-.rootshape_rounded_showEndIcon {
+.rootshowEndIcon_shape_rounded {
   padding-right: 16px;
 }
-.rootshape_round_size_compact {
+.rootsize_compact_shape_round {
   padding: 6px;
 }
 .root:hover {
@@ -240,7 +240,7 @@
 .rootcolor_link:active .slotTargetStartIconcolor_link {
   color: #006adc;
 }
-.svg__eExlN {
+.svg__anYdV {
   position: relative;
   object-fit: cover;
   width: auto;
@@ -470,7 +470,7 @@
 .rootcolor_link:active .slotTargetEndIconcolor_link {
   color: #006adc;
 }
-.svg__yw1G2 {
+.svg__vzRkd {
   position: relative;
   object-fit: cover;
   width: auto;
